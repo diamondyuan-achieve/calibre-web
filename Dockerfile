@@ -8,5 +8,5 @@ RUN git clone https://github.com/janeczku/calibre-web/  && \
 
 EXPOSE 8083
 
-CMD ["python","python cps.py"]
+CMD ["python","/calibre-web/cps.py"]
 
